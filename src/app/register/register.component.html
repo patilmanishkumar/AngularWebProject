@@ -1,0 +1,64 @@
+        <div class="form-bg">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h1 class="panel-title">Student Registration</h1>
+                    </div>
+                  <div class="panel-body">
+                        <div class="form-group">
+                             <p><label for="firstName">First Name :</label>
+                            <input id="firstName" type="text" class="form-control"  name="firstName" ngModel></p>
+                        </div>
+                    
+
+                        
+                        
+                                <div class="form-group">
+                                    <p><label for="lastName">Last Name :</label>
+                                    <input id="lastName" type="text" class="form-control" name="lastName" ngModel></p>
+                                  </div>
+          
+                                  <div class="form-group">
+                                    <p><label for="email">Email :</label>
+                                    <input id="email" type="text" class="form-control" name="email" ngModel></p>
+                                  </div>
+                                 
+                                  <div class="form-group">
+                                    <p><label>Gender :</label></p>
+                                    <div class="form-control">
+                                        <p><label class="radio-inline">
+                                        <input type="radio" name="gender" value="male" checked ngModel> Male
+                                        </label>
+        
+                                        <label class="radio-inline">
+                                        <input type="radio" name="gender" value="female" ngModel> Female
+                                        </label></p>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                   <p> <label for="branch">Branch :</label></p>
+                                    <select id="branch" name="branch" ngModel class="form-control">
+                                        <option value="1" selected>CSE</option>
+                                        <option value="2">EEE</option>
+                                        <option value="3">ECE</option>
+                                        <option value="4">Mech</option>
+                                        <option value="5">Other</option>
+                                    </select>
+                                </div>
+                               
+                                <div class="form-group">
+                                    <div class="form-control">
+                                       <p> <label class="checkbox-inline">
+                                            <input type="checkbox" name="isAccept" ngModel>Accept Terms & Conditions
+                                        </label></p>
+                            <div class="panel-footer">
+                                <button class="btn btn-primary" type="submit">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                       
+                  </div>
+              </div>
+         
+      </div>
+     
